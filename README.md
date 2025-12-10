@@ -159,7 +159,7 @@ Example:
 <br/>❌ "John Doe"
 <br/>✔ "John_Doe"
 
-<br/>🛠 If you want multiple admins → just add more `AddAdmin("username");` lines
+🛠 If you want multiple admins → just add more `AddAdmin("username");` lines
 
 ⚙ You can safely use this script in live RP servers
 
@@ -173,9 +173,9 @@ Example:
 
 Requirement	Description
 
-<br/><br/>SA-MP Server 0.3.7 / open.mp	Works on both
-<br/>Pawn Compiler	Standard pawncc is enough
-<br/>sscanf Plugin	Needed for command parsing
+<br/>`SA-MP Server 0.3.7` / `open.mp`	Works on both
+<br/>`Pawn Compiler`	Standard pawncc is enough
+<br/>`sscanf` Plugin	Needed for command parsing
 <br/>Basic Server Knowledge	How to compile & run SA-MP
 
 
