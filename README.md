@@ -84,7 +84,7 @@ sampctl package install maddinat0r/sscanf
 
 `#include "slap_system.pwn"`
 
-<br/>If using as a filterscript, add to server.cfg:
+<br/>If using as a filterscript, add to `server.cfg`:
 
 `filterscripts slap_system`
 
@@ -123,7 +123,7 @@ If everything is correct — you will get:
 <br/>Run SA-MP server and test:
 
 `/slap <playerid>`
-`/slap all`
+<br/>`/slap all`
 
 
 ---
