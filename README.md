@@ -57,7 +57,7 @@ Download the `.pwn` file and place it inside your gamemode or filterscripts fold
 
 
 
-2️⃣ Ensure Required Includes Exist
+<br/><br/>2️⃣ Ensure Required Includes Exist
 
 Make sure you have:
 
@@ -78,7 +78,7 @@ sampctl package install maddinat0r/sscanf
 
 
 
-3️⃣ Add Script to Your Gamemode
+<br/><br/>3️⃣ Add Script to Your Gamemode
 
 If included inside your GM:
 
@@ -91,7 +91,7 @@ If using as a filterscript, add to server.cfg:
 
 
 
-4️⃣ Add Your Admin Username(s)
+<br/><br/>4️⃣ Add Your Admin Username(s)
 
 Inside `OnGameModeInit()`:
 
@@ -105,7 +105,7 @@ You can add unlimited names.
 
 
 
-5️⃣ Compile
+<br/><br/>5️⃣ Compile
 
 Compile using your standard Pawn compiler:
 
@@ -113,14 +113,12 @@ pawncc yourgamemode.pwn
 
 If everything is correct — you will get:
 
-✔ No errors
-✔ No warnings
-✔ Clean compile
+✔ No errors <br/>✔ No warnings <br/>✔ Clean compile
 
 
 
 
-6️⃣ Start Your Server
+<br/><br/>6️⃣ Start Your Server
 
 Run SA-MP server and test:
 
@@ -138,13 +136,13 @@ Run SA-MP server and test:
 
 Player with ID 12 will be launched upward.
 
-🟨 Slap Everyone
+<br/>🟨 Slap Everyone
 
 `/slap all`
 
 All connected players receive the slap effect.
 
-🔐 Permission System
+<br/>🔐 Permission System
 
 Only users whose username matches your admin list can use the command.
 
@@ -156,13 +154,13 @@ Only users whose username matches your admin list can use the command.
 ✏ Change admin names exactly as they appear in-game (case-insensitive)
 
 🚫 Do not put spaces in admin usernames
-```
-Example:
-❌ "John Doe"
-✔ "John_Doe"
-```
 
-🛠 If you want multiple admins → just add more `AddAdmin("username");` lines
+<br/>Example:
+<br/>❌ "John Doe"
+<br/>✔ "John_Doe"
+
+
+<br/>🛠 If you want multiple admins → just add more `AddAdmin("username");` lines
 
 ⚙ You can safely use this script in live RP servers
 
@@ -176,10 +174,10 @@ Example:
 
 Requirement	Description
 
-SA-MP Server 0.3.7 / open.mp	Works on both
-Pawn Compiler	Standard pawncc is enough
-sscanf Plugin	Needed for command parsing
-Basic Server Knowledge	How to compile & run SA-MP
+<br/><br/>SA-MP Server 0.3.7 / open.mp	Works on both
+<br/>Pawn Compiler	Standard pawncc is enough
+<br/>sscanf Plugin	Needed for command parsing
+<br/>Basic Server Knowledge	How to compile & run SA-MP
 
 
 
